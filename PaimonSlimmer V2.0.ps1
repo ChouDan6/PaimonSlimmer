@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    PaimonSlimmer V1.0 (Final Fix)
+    PaimonSlimmer V2.0
     - Stubs files to 0KB to save space.
     - Applies "Aggressive Lock" (ACL Permissions) to prevent the game from redownloading.
     - Added Auto-Admin Elevation and Fixed Read-Only ACL exception.
@@ -646,3 +646,4 @@ do {
     $choice = $null
 
 } until ($choice -eq 'Q' -or $choice -eq 'q')
+
